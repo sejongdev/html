@@ -1,2 +1,2 @@
 # html
-sejongdev.github.com/html
+https://sejongdev.github.io/html
