@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/push.js"></script>
+    <script type="text/javascript" src="../js/serviceWorker.min.js"></script>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    Push.create("Hello world!", {
+        body: "How's it hangin'?",
+        icon: '../images/icon.jpg',
+        timeout: 4000,
+        onClick: function () {
+            window.focus();
+            this.close();
+        }
+    });
+</script>
+</html>
